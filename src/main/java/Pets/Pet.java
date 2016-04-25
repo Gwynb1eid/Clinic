@@ -1,4 +1,9 @@
 package Pets;
 
-public class Pet {
+public interface Pet {
+
+    void makeSound();
+
+    String getName();
+
 }
